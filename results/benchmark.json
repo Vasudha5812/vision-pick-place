@@ -1,0 +1,50 @@
+[
+  {
+    "strategy": "naive",
+    "feedforward": true,
+    "trials": 50,
+    "objects": 234,
+    "success_rate_pct": 100.0,
+    "mean_cycle_time_s": 16.55598000000012,
+    "mean_time_per_object_s": 3.5376025641025897,
+    "rms_tracking_error_mm": 0.5442913517439534,
+    "max_tracking_error_mm": 1.898618079265064,
+    "mean_localisation_error_mm": 0.3785164818139997
+  },
+  {
+    "strategy": "greedy",
+    "feedforward": true,
+    "trials": 50,
+    "objects": 234,
+    "success_rate_pct": 100.0,
+    "mean_cycle_time_s": 16.182259999999747,
+    "mean_time_per_object_s": 3.457747863247809,
+    "rms_tracking_error_mm": 0.5671333408700101,
+    "max_tracking_error_mm": 1.9149084166982167,
+    "mean_localisation_error_mm": 0.3785164818139997
+  },
+  {
+    "strategy": "optimal",
+    "feedforward": true,
+    "trials": 50,
+    "objects": 234,
+    "success_rate_pct": 100.0,
+    "mean_cycle_time_s": 15.164519999999,
+    "mean_time_per_object_s": 3.240282051281838,
+    "rms_tracking_error_mm": 0.607473530977174,
+    "max_tracking_error_mm": 1.9329326540169962,
+    "mean_localisation_error_mm": 0.3785164818139997
+  },
+  {
+    "strategy": "greedy",
+    "feedforward": false,
+    "trials": 50,
+    "objects": 234,
+    "success_rate_pct": 100.0,
+    "mean_cycle_time_s": 16.16997999999974,
+    "mean_time_per_object_s": 3.4551239316238758,
+    "rms_tracking_error_mm": 3.022966132251372,
+    "max_tracking_error_mm": 11.327521148799992,
+    "mean_localisation_error_mm": 0.3785164818139997
+  }
+]
